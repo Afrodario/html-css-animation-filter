@@ -81,10 +81,29 @@
     filter: sepia(80%) grayscale(20%);
 }
 
+/* Esercizio 8 */
+.ex-8-img {
+    transition: all 2s ease;
+}
+
+.ex-8-img:hover {
+    filter: sepia(80%) grayscale(20%);
+    border-radius: 5%;
+}
+
+/* Esercizio 9 */
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: all 2s ease;
 }
+
+.ex-9-img:hover {
+    filter: sepia(80%) grayscale(20%);
+    border-radius: 5%;
+    transform: scale(1.5);
+}
+
 .ex-10-icon {
     font-size: 60px;
 }
