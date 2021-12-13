@@ -129,9 +129,28 @@
     }
 }
 
+/* Esercizio 11 */
 .ex-11-icon {
     font-size: 60px;
 }
+
+.ex-11-icon:hover {
+    animation: spinning-partial 1s linear 0s 1;
+}
+
+@keyframes spinning-partial {
+
+    80% {
+        transform: rotate(300deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+
+}
+
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
